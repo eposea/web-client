@@ -1,0 +1,135 @@
+*,
+*:after,
+*:before{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.container{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .eposea-link{
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+    color: hsl(226, 59%, 90%);
+  }
+  .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-section-text {
+      font-size: 72px;
+    text-align: center;
+    color: hsl(226, 59%, 90%);
+    margin-bottom: 30px;
+  }
+  .section-text {
+    font-size: 42px;
+    text-align: center;
+    color: hsl(226, 59%, 90%);
+  }
+  .hero-section {
+    padding-top: 200px;
+    padding-bottom: 180px;
+  }
+  .main-header{
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    padding-top: 46px;
+    padding-bottom: 60px;
+  }
+  .page-nav-list{
+    display: flex;
+  }
+  .page-nav-link{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    color: hsl(226, 59%, 90%);
+    text-decoration: none;
+    padding: 12px 20px;
+  }
+  .page-nav-link:focus{
+    outline: none;
+    transform: scale(1.2);
+  }
+  .page-nav-link:hover{
+    outline: none;
+    transform: scale(1.2);
+  }
+  .gifts-section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .gifts-list-item{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .gifts-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .gifts-card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(226, 59%, 90%);
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  .gift-card-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 166px;
+    padding: 24px;
+  }
+  .gift-card-name{
+    font-size: 20px;
+    line-height: 24px;
+    color: hsl(225, 58%, 10%);
+    padding: 0;
+    margin: 0;
+  }
+  .gift-card-link{
+    font-size: 14px;
+    line-height: 19px;
+    color: hsl(225, 58%, 10%);
+  }
+  .div-list{
+      display: flex;
+      flex-direction: column;
+  }

@@ -1,0 +1,43 @@
+.main-button{
+    display: inline-block;
+    border: 1px solid hsl(226, 79%, 85%);
+    border-radius: 10px;
+    padding: 12px 50px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: hsl(226, 79%, 85%);
+    transition: background-color 0.3s;
+  }
+  .main-button:hover{
+    outline: none;
+    color: hsl(225, 58%, 10%);
+    background-color: hsl(226, 79%, 85%);
+  }
+  .main-button:focus{
+    outline: none;
+    color: hsl(226, 79%, 85%);
+    background-color: hsl(225, 58%, 10%);
+  }
+  .main-button:active{
+    color: hsl(226, 79%, 85%);
+    background-color: hsl(225, 58%, 10%);
+  }
+  .main-button-alt{
+    color: hsl(226, 79%, 85%);
+    border: none;
+  }
+  .main-button-alt:hover{
+    color: hsl(225, 58%, 10%);
+    outline: none;
+    background-color: hsl(226, 79%, 85%);
+  }
+  .main-button-alt:focus{
+    outline: none;
+    color: hsl(226, 79%, 85%);
+    background-color: hsl(225, 58%, 10%);
+  }
+  .main-button-alt:active{
+    color: hsl(226, 79%, 85%);
+    background-color: hsl(225, 58%, 10%);
+  }

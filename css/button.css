@@ -1,0 +1,52 @@
+.main-button {
+  display: inline-block;
+  border: 1px solid #bbc9f7;
+  border-radius: 10px;
+  padding: 12px 50px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
+  color: #bbc9f7;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.main-button:hover {
+  outline: none;
+  color: #0b1228;
+  background-color: #bbc9f7;
+}
+
+.main-button:focus {
+  outline: none;
+  color: #bbc9f7;
+  background-color: #0b1228;
+}
+
+.main-button:active {
+  color: #bbc9f7;
+  background-color: #0b1228;
+}
+
+.main-button-alt {
+  color: #bbc9f7;
+  border: none;
+}
+
+.main-button-alt:hover {
+  color: #0b1228;
+  outline: none;
+  background-color: #bbc9f7;
+}
+
+.main-button-alt:focus {
+  outline: none;
+  color: #bbc9f7;
+  background-color: #0b1228;
+}
+
+.main-button-alt:active {
+  color: #bbc9f7;
+  background-color: #0b1228;
+}
+/*# sourceMappingURL=button.css.map */
