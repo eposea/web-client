@@ -1,3 +1,3 @@
 # web-client
 
-Eposea Web Client
+Eposea Web Client 🕸️
